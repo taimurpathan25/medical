@@ -24,7 +24,7 @@ import BlogSection from '../../Components/base-components/blog-section/BlogSecti
 // import '../../assets/css/animate.min.css';
 // import '../../assets/css/magnific-popup.css';
 // import '../../assets/css/responsive.css';
-// import '../../assets/css/normalize.css';
+import '../../assets/css/normalize.css';
 
 const Home = () => {
   return (

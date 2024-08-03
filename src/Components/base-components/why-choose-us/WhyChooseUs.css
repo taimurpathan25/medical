@@ -102,3 +102,54 @@
 /*=======================
 	End Why choose CSS
 =========================*/
+
+
+
+/* Tablet Screen */
+/* @media only screen and (min-width: 768px) and (max-width: 991px) { */
+	/* Header Sticky */
+	/* .section{
+		padding:70px 0px;
+	}
+	.section-title {
+		margin-bottom: 35px;
+		padding: 0px 80px;
+	}
+	.section-title h2 {
+		font-size: 25px;
+		margin-bottom: 12px;
+	}
+	.section-title p {
+		font-size: 13px;
+	}
+} */
+
+/* Mobile Screen */
+/* @media only screen and (max-width: 767px){
+	.section-title {
+		margin-bottom: 30px;
+		padding: 0px 20px;
+	}
+	.section-title h2 {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	.section-title p {
+		font-size: 13px;
+	}
+} */
+
+/* Mobile Screen */
+/* @media only screen and (max-width: 450px) {
+	.section-title {
+		margin-bottom: 30px;
+		padding: 0px 20px;
+	}
+	.section-title h2 {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	.section-title p {
+		font-size: 13px;
+	}
+} */

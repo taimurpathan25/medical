@@ -11,7 +11,7 @@ import '../../../assets/css/font-awesome.min.css';
 import '../../../assets/css/datepicker.css';
 import '../../../assets/css/animate.min.css';
 // import '../../../assets/css/magnific-popup.css';
-import '../../../assets/css/responsive.css';
+// import '../../../assets/css/responsive.css';
 import '../../../assets/css/normalize.css';
 
 // Images
