@@ -9,10 +9,12 @@ import BlogDetails from './Pages/blog-details/BlogDetails'
 import PageNotFound from './Pages/page-not-found/PageNotFound'
 
 import ProButton from './Components/common-components/pro-button/ProButton';
+import Loader from './Components/base-components/Loader/Loader';
 
 function App() {
   return (
     <>
+    <Loader/>
     <ProButton/>
    <BrowserRouter>
    <Routes>

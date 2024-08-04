@@ -6,7 +6,7 @@ import '../../../assets/css/bootstrap.min.css';
 import '../../../assets/css/nice-select.css';
 import '../../../assets/css/icofont.css';
 import '../../../assets/css/font-awesome.min.css';
-// import '../../../assets/css/slicknav.min.css';
+import '../../../assets/css/slicknav.min.css';
 // import '../../../assets/css/owl-carousel.css';
 import '../../../assets/css/datepicker.css';
 import '../../../assets/css/animate.min.css';
@@ -56,14 +56,14 @@ const Header = () => {
 						<div className="row">
 							<div className="col-lg-3 col-md-3 col-12">
 								{/* <!-- Start Logo --> */}
-								<div className="logo">
+								{/* <div className="logo"> */}
 									<Link to={'/'}>
                     <img src={Logo} width={'30%'}  alt="Logo"/>
                      <span style={{fontSize:'30px', fontWeight:'600'}}>
                       <span style={{color:'#1A76D1'}}>Medi</span>cos
                       </span>
                       </Link>
-								</div>
+								{/* </div> */}
 								{/* <!-- End Logo --> */}
 								{/* <!-- Mobile Nav --> */}
 								<div className="mobile-nav"></div>
@@ -75,17 +75,19 @@ const Header = () => {
 									<nav className="navigation">
 										<ul className="nav menu">
 											<li className="active"><Link to={'/'}>Home</Link></li>
-											<li><Link href="#">Doctors <i className="icofont-rounded-down"></i></Link>
+											{/* <li><Link href="#">Doctors <i className="icofont-rounded-down"></i></Link>
 												<ul className="dropdown">
 													<li><Link to={"/doctor"}>Doctor 1</Link></li>
 												</ul>
-											</li>
+											</li> */}
+
+											<li><Link to={'/about'}>About </Link></li>
 											<li><Link to={'/services'}>Services </Link></li>
-											<li><a href="#">Pages <i className="icofont-rounded-down"></i></a>
+											{/* <li><a href="#">Pages <i className="icofont-rounded-down"></i></a>
 												<ul className="dropdown">
 													<li><a href="404.html">404 Error</a></li>
 												</ul>
-											</li>
+											</li> */}
 											<li><a href="#">Blogs <i className="icofont-rounded-down"></i></a>
 												<ul className="dropdown">
 													<li><Link to={'/blog-details'}>Blog Details</Link></li>

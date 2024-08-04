@@ -39,7 +39,7 @@ const Home = () => {
                 <div className="row">
                   <div className="col-lg-7">
                     <div className="text">
-                      <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
+                      <h1>We Provide to a Best & Creactive <span>MEDICAL HEALTHCARE AGENCY</span>!</h1>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.</p>
                       <div className="button">
                         <a href="#" className="btn">Get Appointment</a>
@@ -57,7 +57,7 @@ const Home = () => {
                 <div className="row">
                   <div className="col-lg-7">
                     <div className="text">
-                      <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
+                      <h1>We Care About <span>YOUR HEALTH</span>, &nbsp; and Give the <span>Best Services!</span></h1>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.</p>
                       <div className="button">
                         <a href="#" className="btn">Get Appointment</a>
@@ -75,7 +75,7 @@ const Home = () => {
                 <div className="row">
                   <div className="col-lg-7">
                     <div className="text">
-                      <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
+                      <h1>We Provide <span>MEDICINE</span> Services That You Can <span>Trust!</span></h1>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.</p>
                       <div className="button">
                         <a href="#" className="btn">Get Appointment</a>
