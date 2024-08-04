@@ -101,7 +101,7 @@ const Header = () => {
 							</div>
 							<div className="col-lg-2 col-12">
 								<div className="get-quote">
-									<a href="appointment.html" className="btn">Book Appointment</a>
+									<a href="appointment.html" className="btn">Book for Medicine</a>
 								</div>
 							</div>
 						</div>
