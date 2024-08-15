@@ -398,7 +398,7 @@ Version:	1.1
 }
 .header .header-inner img{
 	width: 88px;
-	height: 88px;
+	height: 85px;
 }
 .slicknav_menu{
 	display:block;
@@ -508,7 +508,8 @@ Version:	1.1
 	margin-top: 18px;
 }
 .header .slicknav_nav {
-	margin-top: 65px;
+	margin-top: -3px;
+	background: #fff;
 }
 .header.style2 .slicknav_nav {
 	margin-top: 60px;
@@ -1033,12 +1034,17 @@ Version:	1.1
 .slicknav_icon-bar{
 	margin-top: 5px;
 }
+.slicknav_btn {
+	position: absolute;
+    right: 30;
+    top: 0;
+}
 
-.mobile-nav{
+/* .mobile-nav{
 	position: relative;
     bottom: 65%;
     right: 30;
-}
+} */
 
 }
 /* Mobile Screen */
