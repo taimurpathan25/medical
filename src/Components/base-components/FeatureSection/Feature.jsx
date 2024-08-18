@@ -2,6 +2,7 @@ import React from 'react'
 import './Feature.css'
 import FeatureHeadingImg from '../../../assets/img/section-img.png';
 import Providing from '../providing-services/Providing';
+import { Link } from 'react-router-dom';
 
 const Feature = () => {
   return (
@@ -14,7 +15,7 @@ const Feature = () => {
 						<div className="section-title">
 							<h2>We Are Always Ready to Help You & Your Family</h2>
 							<img src={FeatureHeadingImg} alt="#"/>
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+							<p>we are committed to providing compassionate, comprehensive care around the clock. Our dedicated team of medical professionals is here 24/7 to support you and your loved ones, ensuring that your health needs are met with the utmost care and attention.</p>
 						</div>
 					</div>
 				</div>
@@ -26,7 +27,7 @@ const Feature = () => {
 								<i className="icofont icofont-ambulance-cross"></i>
 							</div>
 							<h3>Emergency Help</h3>
-							<p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+							<p>When emergencies arise, prompt and effective medical assistance is crucial. At <Link to="/contact">TZ Medicos</Link>, we are dedicated to providing immediate, high-quality care during critical moments.</p>
 						</div>
 						{/* <!-- End Single features --> */}
 					</div>

@@ -10,7 +10,7 @@ import ScheduledArea from '../../Components/base-components/ScheduledArea/Schedu
 import Feature from '../../Components/base-components/FeatureSection/Feature';
 
 // CSS
-import './Index.css';
+import './Home.css';
 // import '../../assets/css/bootstrap.min.css';
 // import '../../assets/css/style.css';
 // import '../../assets/css/nice-select.css';
@@ -33,7 +33,7 @@ const Home = () => {
 		{/* Slider Area */}
     <section className="slider">
           <div className="hero-slider">
-            {/* Start Single Slider */}
+            {/* Start First Slider */}
             <div className="single-slider" style={{ backgroundImage: `url(${'https://e1.pxfuel.com/desktop-wallpaper/724/582/desktop-wallpaper-medicine-man-made-hq-medicine-medicines.jpg'})` }}>
               <div className="container">
                 <div className="row">
@@ -50,8 +50,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* End Single Slider */}
-            {/* Start Single Slider */}
+            {/* End First Slider */}
+            {/* Start Second Slider */}
             <div className="single-slider" style={{ backgroundImage: `url(${'https://img.freepik.com/premium-photo/medicine-capsules-isolated-from-white-background-global-healthcare-concept-antibiotics-drug-resistance-antimicrobial-capsule-pharmaceutical-industry-pharmacy-3d-render_1226542-2682.jpg'})` }}>
               <div className="container">
                 <div className="row">
@@ -70,15 +70,15 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* End Single Slider */}
-            {/* Start Single Slider */}
+            {/* End Second Slider */}
+            {/* Start Third Slider */}
             <div className="single-slider" style={{ backgroundImage: `url(${'https://img.freepik.com/premium-photo/blue-white-antibiotic-capsule-pill-capsule-pills-bottle-antibiotic-drug-resistance-pharmaceutics-concept-pharmaceutical-industry-pharmacy-product_33867-778.jpg'})` }}>
               <div className="container">
                 <div className="row">
                   <div className="col-lg-7">
                     <div className="text">
                       <h1>We Care About <span>YOUR HEALTH</span>, &nbsp; and Give the <span>Best Services!</span></h1>
-                      <p>Our dedicated team of healthcare professionals is committed to providing the highest quality services and the most effective treatments tailored to your needs. From personalized consultations and expert medical advice to the convenient and safe delivery of authentic medicines, we strive to ensure you receive the best care possible. Your health is our top priority, and we are here to support you every step of the way, making your journey to wellness seamless and reassuring.</p>
+                      <p>Our dedicated team of healthcare professionals is committed to providing the highest quality services and the most effective treatments tailored to your needs. From personalized consultations and expert medical advice to the convenient and safe delivery of authentic medicines, we strive to ensure you receive the best care possible. Your health is our top priority, and we are here to support you every step.</p>
                       <div className="button">
                         <a href="#" className="btn">Get Medicine</a>
                         <a href="#" className="btn primary">About Us</a>
@@ -88,7 +88,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* End Single Slider */}
+            {/* End Third Slider */}
           </div>
         </section>
         {/* End Slider Area */}
